@@ -1,0 +1,161 @@
+:root{
+    --mainColor:#e38748;
+    --bodyColor:#f8f9fb;
+    --buttonColor:#ff6e0b;
+    --hrColor:#f19552;
+    --hrBorderColor:#ffe7ca;
+    --blackColor:#000000;
+    --footerColor:#ff9d56;
+}
+
+.container{
+    background-color: var(--bodyColor);
+    width:50%;
+    margin:50px auto;
+    border:15px solid var(--mainColor);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+}
+
+.container-header {
+    align-self: flex-start;
+}
+
+.container-header img {
+    width:100%;
+}
+
+.container-body {
+    width:100%;
+}
+
+.container-body img {
+    width:100%;
+}
+.main-course p {
+    margin:15px auto;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.main-course .course-disc {
+    width:70%;
+    margin:0px auto;
+    text-align: justify;
+    font-size: 1em;
+    margin-bottom: 2em;
+}
+
+.btn-recipe {
+    width: 100%;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3em;
+}
+
+.btn-primary {
+    background-color: var(--buttonColor);
+    border:1px solid var(--buttonColor);
+    
+}
+
+hr {
+    background-color: var(--hrColor);
+    width:95%;
+    height: 0.3em;
+    border: 0.1em solid var(--hrBorderColor);
+}
+
+.more-recipe {
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin:50px 0px;
+}
+
+.more-recipe .more-recipe-header {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.recipes {
+    width:90%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.recipes div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.recipes div img {
+    width:90%;
+}
+
+.soup-name {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin:30px 0px;
+}
+
+.container-footer {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.info {
+    width:100%;
+    background:var(--footerColor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding:20px 0px;
+    color:#fff;
+}
+
+.terms-and-conditions {
+    width:80%;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    margin:20px 0px;
+}
+
+.info div div {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+.info .location {
+    margin-top: 30px;
+}
+.terms-and-conditions span a {
+    text-decoration: none;
+    color:black;
+}
+
+.terms-and-conditions span a:hover {
+    color:blue;
+    text-decoration:underline;
+}
